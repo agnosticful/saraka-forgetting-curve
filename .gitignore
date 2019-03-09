@@ -3,7 +3,7 @@ __pycache__
 
 # jupyter
 .ipynb_checkpoints/
-
+*.pyc
 
 # typescript
 node_modules/
