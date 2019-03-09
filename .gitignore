@@ -1,0 +1,14 @@
+
+
+# jupyter
+.ipynb_checkpoints/
+
+
+# typescript
+node_modules/
+
+built/
+
+
+# VScode
+.vscode/
