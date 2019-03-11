@@ -22,10 +22,10 @@ def forgetting_curve_threshold_view(threshold, times):
 
         i = next_starting_x
 
-        first_saving_rate = cal_saving_rate(i)
+        saving_rate = cal_saving_rate(i)
 
         while True:
-            saving_rate = 100 - first_saving_rate + cal_saving_rate(i)
+            saving_rate = 100 - saving_rate + cal_saving_rate(i)
 
             if saving_rate < threshold:
                 break
